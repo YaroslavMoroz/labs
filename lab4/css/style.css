@@ -1,12 +1,8 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Catamaran:400,500,900");
-@font-face {
-  font-family: Myriad Pro;
-  src: url(../fonts/MyriadPro.otf); }
+
 * {
   margin: 0; 
 }
-html {
+html 
   height: 100%;
   font-weight: 400;
   font-size: 100%;
@@ -288,7 +284,7 @@ footer {
     max-width: 950px;
     width: 100%; } }
 
-/*# sourceMappingURL=style.css.map */
+
 
 p:hover{
 
@@ -309,3 +305,205 @@ p:hover{
 	-ms-transform: scale(1.2);
 	transform: scale(1.2);	
 }
+
+
+@media (max-width: 1376px) {
+  .headText {
+    font-size: 50px;
+    margin-bottom: 40px; }
+	
+  .text {
+    font-size: 23px; }
+
+  .box img {
+    min-height: 100px;
+    width: 100px; }
+
+  .head_box {
+    font-size: 35px;
+    margin-bottom: 30px; }
+
+  .text_box {
+    font-size: 30px; }
+
+  .box {
+    height: 300px; }
+
+  .img_box {
+    margin-bottom: 10px; }
+
+  footer {
+    height: 170px;
+    bottom: 0;
+    width: 100%; }
+
+  .footer_logo {
+    width: 230px;
+    height: 100px; }
+
+  .right_footer {
+    font-size: 30px; }
+
+  .logo img {
+    width: 400px; }
+
+  .logo p {
+    width: unset;
+    font-size: 55px; }
+
+  .button {
+    font-size: 40px; }
+
+  .inputDiv input {
+    font-size: 35px; }
+
+  .textform {
+    font-size: 20px; }
+
+  .buttonRegister p {
+    font-size: 40px; }
+
+  .bottom {
+    margin-top: 25px; }
+
+  .header {
+    height: 100%;
+	}
+
+  .wrap {
+    min-height: 2850px;
+	width: 1270px;	}
+  .main_header{
+	  min-height: 2850px;
+  }
+
+  .main_img {
+    opacity: 0.7;
+    width: 100%;
+    background-image: linear-gradient(to top, #00f1ff 0%, #00a8b2 100%); }
+
+  .info {
+    max-width: 930px;
+    top: 130px;
+    left: 340px; }
+
+  
+  .content {
+    max-width: 930px;
+    top: 130px;
+    left: 320px; }
+	
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    align-items: center;
+    height: 100%;
+    min-height: 1460px; }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 765px; }
+
+  .headText {
+    font-size: 70px;
+    margin-bottom: 110px; }
+
+  .text {
+    font-size: 40px; }
+
+  .bottom.bottom {
+    margin-top: 115px; }
+
+  .headText {
+    font-size: 70px;
+    margin-bottom: 110px; }
+
+  .icons {
+    max-width: 950px;
+    width: 100%;
+    margin-top: 310px;
+    margin-left: 140px;
+    flex-direction: column; }
+
+  .box {
+    height: 360px;
+    height: 100%;
+    min-height: 640px; }
+
+  .box img {
+    min-height: 150px;
+    width: 150px; }
+
+  .head_box {
+    font-size: 55px;
+    margin-bottom: 30px; }
+
+  .text_box {
+    font-size: 33px; }
+
+  footer {
+    height: 170px;
+    bottom: 0;
+    width: 1270px; }
+
+  .register {
+    position: absolute;
+    top: 820px; }
+
+  header {
+    height: 1740px;
+    background-image: unset;
+    width: 1270px;	}
+
+  .logo p {
+    position: absolute;
+    left: -270px; }
+
+  .register {
+    width: 615px;
+    height: 675px;
+    left: -30px; }
+
+  .button {
+    width: 310px; }
+
+  .inputDiv input {
+    width: 580px;
+    margin-top: 45px; }
+
+  .textform {
+    width: 617px;
+    font-size: 30px; }
+
+  .buttonRegister {
+    margin-top: 60px;
+    width: 587px;
+    height: 60px; }
+
+  .text {
+    line-height: 44px; }
+
+  .icons {
+    margin-top: 0px; }
+
+  .box {
+    min-height: 450px; }
+
+  .text_box {
+    line-height: 54px; }
+
+  .text_box {
+    font-size: 43px;
+    margin-bottom: 80px; }
+
+  .wrap2 {
+    min-height: unset; }
+
+  .right_footer {
+    font-size: 40px; } }
+
+
+
