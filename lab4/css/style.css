@@ -1,3 +1,10 @@
+.main_img{
+	background-image: url(../img/head_back.jpg);
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-size: 1920px 900px;
+}
+
 
 * {
   margin: 0; 
@@ -22,7 +29,7 @@ body {
 
 .main_img {
   opacity: 0.7;
-  height: 750px;
+  height: 848px;
   width: 100%; }
 
 .info {
@@ -63,9 +70,7 @@ body {
   /* Text style for "If you’re" */
   letter-spacing: 1.6px; }
 
-.logo img {
-  margin-left: 27px; 
-}
+
 
 
 
@@ -192,6 +197,12 @@ body {
   height: 200px;
   align-items: center;
   text-align: center; }
+  
+  
+.boxtwo{
+	display: flex;
+	
+}
 
 .box img {
   width: 68px;
@@ -227,8 +238,8 @@ body {
   letter-spacing: 1.6px; }
 
 footer {
-  margin-top: 75px;
   /* Style for "Rectangle" */
+  
   height: 121px;
   background-color: #333333; }
 
@@ -288,15 +299,19 @@ footer {
 
 p:hover{
 
-    transition:all 0.6s ease;
-	box-shadow: inset 0 0 0 100px #53ea93;
-}
-
-.logo img:hover{
 	transition:all 0.6s ease;
 	-webkit-transform: scale(1.2);
 	-ms-transform: scale(1.2);
 	transform: scale(1.2);	
+}
+
+.logo img:hover{
+	transition:all 0.5s ease;
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+
+	
+			
 }
 
 .logo p:hover{
@@ -345,7 +360,8 @@ p:hover{
     font-size: 30px; }
 
   .logo img {
-    width: 400px; }
+    width: 400px;
+	margin-left: 50px	}
 
   .logo p {
     width: unset;
@@ -371,7 +387,7 @@ p:hover{
 	}
 
   .wrap {
-    min-height: 2850px;
+    min-height: 2000px;
 	width: 1270px;	}
   .main_header{
 	  min-height: 2850px;
@@ -380,7 +396,7 @@ p:hover{
   .main_img {
     opacity: 0.7;
     width: 100%;
-    background-image: linear-gradient(to top, #00f1ff 0%, #00a8b2 100%); }
+    }
 
   .info {
     max-width: 930px;
@@ -426,12 +442,15 @@ p:hover{
     width: 100%;
     margin-top: 310px;
     margin-left: 140px;
-    flex-direction: column; }
+    flex-direction: row; }
 
   .box {
     height: 360px;
     height: 100%;
-    min-height: 640px; }
+    min-height: 640px;
+	margin-right: 190px;
+	margin-bottom: 260px;
+	}
 
   .box img {
     min-height: 150px;
@@ -460,31 +479,34 @@ p:hover{
 
   .logo p {
     position: absolute;
-    left: -270px; }
+    left: -180px; }
 
   .register {
-    width: 615px;
-    height: 675px;
-    left: -30px; }
+	width: 800px;
+    height: 800px;
+    left: -112px;
+    top: 1060px;	}
 
   .button {
-    width: 310px; }
+	width: 500px;
+    height: 100px;}
 
   .inputDiv input {
-    width: 580px;
+    width: 763px;
+    height: 65px;
     margin-top: 45px; }
 
   .textform {
-    width: 617px;
-    font-size: 30px; }
+	width: 781px;
+    font-size: 40px; }
 
   .buttonRegister {
     margin-top: 60px;
-    width: 587px;
-    height: 60px; }
+	width: 774px;
+    height: 90px; }
 
   .text {
-    line-height: 44px; }
+    line-height: 46px; }
 
   .icons {
     margin-top: 0px; }
@@ -503,7 +525,25 @@ p:hover{
     min-height: unset; }
 
   .right_footer {
-    font-size: 40px; } }
+    font-size: 40px; } 
+	
+  .boxtwo{
+	display: flex;
+    flex-direction: column;
+	
+  }
+	
+  body {
+	width: 1267px;
+ }
+  .slider_123{
+	  
+	  
+  }
+	
+	  
+  
+	}
 
 
 

@@ -12,3 +12,9 @@ $(".joinUs").click(function(){
 	
 });
 
+$(document).ready(function(){
+	$('.slider_123').slick({arrows:false});
+	
+});
+
+
